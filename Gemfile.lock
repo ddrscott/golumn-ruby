@@ -7,7 +7,13 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    coderay (1.1.1)
     diff-lcs (1.3)
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rake (10.5.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
@@ -23,6 +29,7 @@ GEM
       rspec-support (~> 3.7.0)
     rspec-support (3.7.0)
     rwx (0.0.1.1.dev)
+    slop (3.6.0)
 
 PLATFORMS
   ruby
@@ -30,6 +37,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16.a)
   golumn!
+  pry
   rake (~> 10.0)
   rspec (~> 3.0)
 

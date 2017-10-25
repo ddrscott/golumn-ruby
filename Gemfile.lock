@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     golumn (0.0.2)
-      rwx
+      rwx (~> 0.0.1.1.dev)
 
 GEM
   remote: https://rubygems.org/

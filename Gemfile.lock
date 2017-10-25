@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    golumn (0.0.1)
+    golumn (0.0.2)
       rwx
 
 GEM

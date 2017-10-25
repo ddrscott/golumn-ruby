@@ -8,7 +8,7 @@ module Golumn
     end
 
     def on_init
-      @frame = WX::Frame.new(nil, title: 'widgets demo')
+      @frame = WX::Frame.new(nil, title: 'Golumn')
       @frame.sizer = WX::BoxSizer.new(:vertical) do |box|
         @grid = WX::Grid.new(@frame)
         @grid.table = ArrayGrid.new(data: CSV.parse(@io.read))

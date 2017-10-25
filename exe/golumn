@@ -3,4 +3,6 @@
 require 'bundler/setup'
 require 'golumn'
 
-Golumn.main
+Process.fork do
+  Golumn.main(io: ARGF)
+end

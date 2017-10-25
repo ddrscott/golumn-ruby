@@ -1,7 +1,5 @@
 # Golumn
 
-THIS DOESN'T WORK, YET!!! SORRY
-
 `column` command with a GUI.
 
 Are you tired of copy pasting data into Excel?!?
